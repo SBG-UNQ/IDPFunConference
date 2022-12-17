@@ -26,8 +26,17 @@ section {
     padding: 2rem 10rem;
 }
 
-li {
+li, nav li {
     list-style: none;
+}
+
+a { 
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover{
+    color:#4a89aa;
 }
 
 nav {
