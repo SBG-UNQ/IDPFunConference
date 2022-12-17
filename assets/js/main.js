@@ -68,13 +68,12 @@ function changeFiguresShwon() {
     counter++;
     if (counter >= figuresCount - 4) {
         counter = 0;
-    }
+    };
 
     speakresListFigures.forEach((figure, index) => {
         const $figure = $(figure);
         $figure.toggleClass("active-img", index >= counter && index < counter + 4);
     })
-    console.log("cambiando")
 }
 
 function activateCarousel(){
