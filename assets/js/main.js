@@ -69,7 +69,7 @@ function active3FirstElements() {
 
 let carouselOffset = 0;
 
-function changeFiguresShown() {
+function changeFiguresShwon() {
     const speakresListFigures = Array.from(document.getElementsByClassName('speaker-list-item'));
 
     carouselOffset = (speakresListFigures.length + carouselOffset) % speakresListFigures.length
@@ -85,6 +85,13 @@ function changeFiguresShown() {
     })
 }
 
+function activeCarousel(){
+    active3FirstElements();
+    setTimeout(changeFiguresShwon, 100);
+}
+
+
 window.onload = function() {
     renderSpeakersSection();
+
 }
