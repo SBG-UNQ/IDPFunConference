@@ -150,12 +150,12 @@ nav li {
     margin-bottom: 15px;
 }
 
-.active-img {
-    display: block;
+.speaker-list-item {
+    display: none;
 }
 
-.inactive-img {
-    display: none;
+.speaker-list-item.active-img {
+    display: block;
 }
 
 footer {

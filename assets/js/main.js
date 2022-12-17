@@ -8,8 +8,39 @@ const speakers = [
     { "name": "Dr. Miguel Andrade", 'img': 'miguel.png', "filiation": "Mainz - Germany" },
     { "name": "Dr. Damian Devos", 'img': 'damian.png', "filiation": "CDB - Spain" },
     { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCD - Chile" },
+    { "name": "Dr. Silvio Tosatto", 'img': 'silvio.png', "filiation": "UNIPD - Italy" },
+    { "name": "Dr. Francisco Melo", 'img': 'francisco.png', "filiation": "PUCD - Chile" },
+    { "name": "Dr. Miguel Andrade", 'img': 'miguel.png', "filiation": "Mainz - Germany" },
+    { "name": "Dr. Damian Devos", 'img': 'damian.png', "filiation": "CDB - Spain" },
+    { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCD - Chile" },
 ];
 
+function appendSpeaker(element, speakersList) {
+    const li = document.createElement('li');
+    const figure =  document.createElement('figure');
+    const img =  document.createElement('img');
+    const figcappurple =  document.createElement('figcapture');
+    const figcapgray =  document.createElement('figcapture');
+    
+    figure.className = "speaker-figure";
+    figcappurple.className = "speaker-caption";
+
+    li.id = "speaker-list-item"
+    li.className = "speaker-list-item"
+    
+    img.src = "./assets/img/" + element.img;
+    img.alt = element.name + "-img";
+    figcappurple.innerHTML = element.name;
+    figcapgray.innerHTML = element.filiation;
+    
+    
+    figure.appendChild(img);
+    figure.appendChild(figcappurple);
+    figure.appendChild(figcapgray);
+    
+    li.appendChild(figure);
+    speakersList.appendChild(li);
+}
 
 function renderSpeakersSection(){
     $speakersSection.empty();
@@ -20,78 +51,39 @@ function renderSpeakersSection(){
     speakersList.className = "speaker-list";
     speakerSectionTitle.innerHTML = "Speakers"
 
-    speakers.forEach(element => {
-        const li = document.createElement('li');
-        const figure =  document.createElement('figure');
-        const img =  document.createElement('img');
-        const figcappurple =  document.createElement('figcapture');
-        const figcapgray =  document.createElement('figcapture');
-        
-        figure.className = "speaker-figure";
-        figcappurple.className = "speaker-caption";
-
-        li.id = "speaker-list-item"
-        li.className = "speaker-list-item active-img"
-        
-        img.src = "./assets/img/" + element.img;
-        img.alt = element.name + "-img";
-        figcappurple.innerHTML = element.name;
-        figcapgray.innerHTML = element.filiation;
-        
-        
-        figure.appendChild(img);
-        figure.appendChild(figcappurple);
-        figure.appendChild(figcapgray);
-        
-        li.appendChild(figure);
-        speakersList.appendChild(li);
-    });
+    speakers.forEach((it) => appendSpeaker(it, speakersList));
+    speakers.slice(0, 4).forEach((it) => appendSpeaker(it, speakersList))
 
     speakersSection.appendChild(speakerSectionTitle)
     imageCarrouselDiv.appendChild(speakersList);
     speakersSection.appendChild(imageCarrouselDiv);
 }
 
-let counterMin = 0;
-
-function active3FirstElements() {
-    const speakresListFigures = document.getElementsByClassName('speaker-list-item');
-    
-    Array.from(speakresListFigures).forEach((element,index) => {
-        if (counterMin < index) {
-            element.classList.remove('active-img')
-            element.classList.add('inactive-img')
-            counterMin = counterMin + 3;
-        }
-    });
-    
-}
-
-let carouselOffset = 0;
+let counter = 0;
 
 function changeFiguresShwon() {
     const speakresListFigures = Array.from(document.getElementsByClassName('speaker-list-item'));
+    const figuresCount = speakresListFigures.length;
 
-    carouselOffset = (speakresListFigures.length + carouselOffset) % speakresListFigures.length
+    counter++;
+    if (counter >= figuresCount - 4) {
+        counter = 0;
+    }
 
-    speakresListFigures.forEach((elemento, indice) => {
-        if ('inactive-img' in elemento.classList || indice < carouselOffset) {
-            elemento.classList.remove('inactive-img');
-            elemento.classList.add('active-img')
-            carouselOffset = carouselOffset +1 
-        } else {
-            elemento.classList.add('active-img');
-        }
+    speakresListFigures.forEach((figure, index) => {
+        const $figure = $(figure);
+        $figure.toggleClass("active-img", index >= counter && index < counter + 4);
     })
+    console.log("cambiando")
 }
 
-function activeCarousel(){
-    active3FirstElements();
-    setTimeout(changeFiguresShwon, 100);
+function activateCarousel(){
+    changeFiguresShwon();
+    setInterval(changeFiguresShwon, 1000);
 }
 
 
 window.onload = function() {
     renderSpeakersSection();
-
+    activateCarousel()
 }
