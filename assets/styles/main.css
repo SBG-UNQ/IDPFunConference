@@ -1,0 +1,102 @@
+/*----------------------------- import fonts -----------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: 0 none;
+}
+
+body {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: antiquewhite;
+}
+
+section {
+    padding: 2rem 10rem;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.1rem 0.9rem 1.2rem 0.9rem;
+    background-color: #21374b;
+    color: antiquewhite;
+    opacity: 0.9;
+}
+
+nav img {
+    width: 81px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.general-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.general-section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-section div > * {
+    margin: 10px 0;
+
+}
+
+.general-section figure img {
+    width: 20rem;
+    margin-left: 6rem;
+}
+
+.about-section {
+    background-color: #f4d4aa;
+}
+
+.about-section > * {
+    margin: 15px 0;
+
+}
+.general-section button {
+    background-color: #ffc107; 
+    width: 9rem;
+    height: 2rem;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.general-section button:hover {
+    background-color: #ffdd75; 
+    color: #4a89aa;
+}
+
+footer {
+    background-color: #4a89aa;
+}
