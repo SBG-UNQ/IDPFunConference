@@ -102,6 +102,44 @@ nav li {
     color: #4a89aa;
 }
 
+.speakers-section {
+    padding: 1.5rem 6.2rem!important;
+    text-align: center;
+}
+
+.speakers-section h2 {
+    margin: 40px 0;
+}
+
+.speaker-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.speaker-figure {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin: 15px 35px;
+}
+
+.speaker-figure img {
+    width: 10rem;
+    border-radius: 50%;
+    filter: grayscale(95%);
+    margin-bottom: 15px;
+}
+
+.active-img {
+    display: block;
+}
+
+.inactive-img {
+    display: none;
+}
+
 footer {
     display: flex;
     flex-direction: column;
