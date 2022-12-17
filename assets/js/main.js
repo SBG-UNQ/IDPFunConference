@@ -78,7 +78,7 @@ function changeFiguresShwon() {
 
 function activateCarousel(){
     changeFiguresShwon();
-    setInterval(changeFiguresShwon, 1000);
+    setInterval(changeFiguresShwon, 3000);
 }
 
 
