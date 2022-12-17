@@ -15,24 +15,33 @@ body {
     color: #666666;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: large;
+    font-size: 1.5em;
     margin: 0;
     overflow-x: hidden;
     background-color: antiquewhite;
     z-index: 5;
 }
 
+section{
+    padding: 2rem 15rem;
+}
+
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
 }
 
-section {
-    padding: 2rem 10rem;
+h3 {
+    font-size: 2rem;
 }
+
+h5 {
+    font-size: 1em;
+}
+
 
 li, nav li {
     list-style: none;
@@ -80,6 +89,7 @@ nav li {
 .general-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 8rem;
 }
 
@@ -94,7 +104,7 @@ nav li {
 }
 
 .general-section figure img {
-    width: 26rem;
+    width: 36rem;
     margin-left: 6rem;
 }
 
@@ -108,11 +118,12 @@ nav li {
 }
 
 .general-section button {
-    background-color: #ffc107; 
-    width: 9rem;
-    height: 2rem;
+    background-color: #ffc107;
+    width: 10rem;
+    height: 3rem;
     border-radius: 20px;
     margin-top: 25px;
+    font-size: 1rem;
 }
 
 .general-section button:hover {
@@ -121,7 +132,6 @@ nav li {
 }
 
 .speakers-section {
-    padding: 1.5rem 6.2rem!important;
     text-align: center;
 }
 
