@@ -33,7 +33,7 @@ function renderSpeakersSection(){
         li.id = "speaker-list-item"
         li.className = "speaker-list-item active-img"
         
-        img.src = "/assets/img/" + element.img;
+        img.src = "./assets/img/" + element.img;
         img.alt = element.name + "-img";
         figcappurple.innerHTML = element.name;
         figcapgray.innerHTML = element.filiation;
