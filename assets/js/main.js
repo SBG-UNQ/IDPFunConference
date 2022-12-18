@@ -5,14 +5,14 @@ const imageCarrouselDiv = document.getElementById('image-carousel');
 const speakers = [
     { "name": "Dr. Silvio Tosatto", 'img': 'silvio.png', "filiation": "UNIPD - Italy" },
     { "name": "Dr. Francisco Melo", 'img': 'francisco.png', "filiation": "PUCD - Chile" },
-    { "name": "Dr. Miguel Andrade", 'img': 'miguel.png', "filiation": "Mainz - Germany" },
-    { "name": "Dr. Damian Devos", 'img': 'damian.png', "filiation": "CDB - Spain" },
+    { "name": "Dr. Miguel Andrade", 'img': 'miguel.png', "filiation": "JGU - Germany" },
+    { "name": "Dr. Damian Devos", 'img': 'damian.png', "filiation": "US - Spain" },
     { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCD - Chile" },
-    { "name": "Dr. Silvio Tosatto", 'img': 'silvio.png', "filiation": "UNIPD - Italy" },
-    { "name": "Dr. Francisco Melo", 'img': 'francisco.png', "filiation": "PUCD - Chile" },
-    { "name": "Dr. Miguel Andrade", 'img': 'miguel.png', "filiation": "Mainz - Germany" },
+    { "name": "Dr. Zsuzsanna Dosztányi", 'img': 'Zsuzsanna.png', "filiation": "HELU - Hungary" },
+    { "name": "Dr. Nestor Mariño", 'img': 'nestor.png', "filiation": "CUC - Colombia" },
+    { "name": "Dr. Andrej Kajava", 'img': 'andrej.png', "filiation": "CRBCM - France" },
     { "name": "Dr. Damian Devos", 'img': 'damian.png', "filiation": "CDB - Spain" },
-    { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCD - Chile" },
+    { "name": "Dr. Denis Shield", 'img': 'denis.png', "filiation": "IUD - Irland" },
 ];
 
 function appendSpeaker(element, speakersList) {

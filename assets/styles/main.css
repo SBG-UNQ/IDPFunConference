@@ -56,6 +56,14 @@ a:hover{
     color:#4a89aa;
 }
 
+article a {
+    color: #666666;   
+}
+
+article a:hover {
+    color:#4a89aa;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -156,6 +164,7 @@ nav li {
     flex-direction: column;
     justify-items: center;
     text-align: center;
+    align-items: center;
     margin: 15px 35px;
 }
 
