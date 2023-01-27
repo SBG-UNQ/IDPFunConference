@@ -28,8 +28,8 @@ function renderProgramSection() {
                 <td>Analazing proteins' cavities dynamics using CaviDB <br><br><b class="speakers-names"> Dr. Ana Julia Velez Rueda(AR)</b></td>
             </tr>
             <tr>
-                <td rowspan="3">14:00 PM</td>
-                <td rowspan="3">Workshop</td>
+                <td>14:00 PM</td>
+                <td>Workshop</td>
                 <td> Hands on workshop <br><br><b class="speakers-names">Paula Arrias (AR)</b></td>
             </tr>
         </tbody>
@@ -94,8 +94,8 @@ function renderProgramSection() {
                 <td> Invited Speakers</td>
             </tr>
             <tr>
-                <td rowspan="3">14:00 - 18:00 PM</td>
-                <td rowspan="3">Keynote Talks</td>
+                <td>14:00 - 18:00 PM</td>
+                <td>Keynote Talks</td>
                 <td> Invited Speakers</td>
             </tr>
         </tbody>    
@@ -123,8 +123,8 @@ function renderProgramSection() {
                 <td> Invited Speakers</td>
             </tr>
             <tr>
-                <td rowspan="3">14:00 - 18:00 PM</td>
-                <td rowspan="3">Keynote Talks</td>
+                <td>14:00 - 18:00 PM</td>
+                <td>Keynote Talks</td>
                 <td> Invited Speakers</td>
             </tr>
         </tbody>
