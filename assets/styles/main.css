@@ -64,6 +64,8 @@ article a:hover {
     color:#4a89aa;
 }
 
+
+/*nav bar*/
 nav {
     position: fixed;
     width: 100%;
@@ -94,6 +96,8 @@ nav li {
     font-weight: bold;
 }
 
+/*general section*/
+
 .general-section {
     display: flex;
     flex-direction: row;
@@ -116,6 +120,8 @@ nav li {
     width: 36rem;
     margin-left: 6rem;
 }
+
+/*about*/
 
 .about-section {
     background-color: #f4d4aa;
@@ -144,6 +150,8 @@ nav li {
     background-color: #ffdd75; 
     color: #4a89aa;
 }
+
+/*speakers*/
 
 .speakers-section {
     text-align: center;
@@ -182,6 +190,8 @@ nav li {
 .speaker-list-item.active-img {
     display: block;
 }
+
+/*footer*/
 
 footer {
     display: flex;
@@ -223,8 +233,145 @@ footer img {
 
 }
 
+.footer a:hover{
+    color: #ffdd75;
+}
+
 .site-credits{
     margin: 25px 0;
     font-size: 18px;
 }
 
+
+
+/*Program*/
+
+.program-section{
+    margin: 10% 0;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+}
+
+.table-p {
+    margin-left: 20%;
+}
+
+.keydates_table{
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0px auto; 
+}
+
+.keydates_table td{
+    text-align: left;
+}
+
+.program-section table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0px auto;
+}
+
+.table_program{
+width: 70%;
+}
+
+.table_program td{
+    text-align: center;
+    border: 1px solid;
+}
+
+.table_program img{
+    padding: 0 2vw;
+}
+
+.schedule-table{
+    width: 100%;
+}
+
+.program-section table thead td {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    line-height: 3vw;
+    vertical-align: bottom;
+}
+
+.program-section table span {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4d38a5;
+}
+
+.program-section td {
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    font-size: 1em;
+    line-height: 1.1em;
+    color: rgb(85, 85, 85);
+}
+
+.breaks td {
+    line-height: 1.3em;
+}
+
+.prog-tracks td {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.4em;
+    color:#906aac;
+    border: none;
+}
+
+.prog-tracks strong{
+    color: rgb(85, 85, 85);
+}
+
+.prog-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.prog-button a {
+    font-size: 1.6em;
+    line-height: 1.8em;
+}
+
+.program-section section {
+    margin-top: 1%;
+}
+
+.program-section p {
+    font-size: 15px;
+    margin-bottom: 22px;
+    margin-top: 18px;
+    margin-left: 25%;
+}
+
+.speakers-names {
+    color: #4a89aa;
+}
+
+.prgram-butons {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    flex-wrap: wrap;
+}
+
+.center{
+    text-align: center;
+}
+
+.dark-purple{
+    color: #6D4486;
+    text-decoration: underline;
+}
