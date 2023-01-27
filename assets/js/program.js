@@ -25,7 +25,7 @@ function renderProgramSection() {
             <tr>
                 <td>9:00 - 12:00 </td>
                 <td>Workshop</td>
-                <td>Analazing proteins' cavities dynamics using <a href="https://www.cavidb.org/" target="_blank">CaviDB</a> <br><br><b class="speakers-names"> Dr. Ana Julia Velez Rueda(AR)</b></td>
+                <td>Analazing proteins' cavities dynamics using CaviDB <br><br><b class="speakers-names"> Dr. Ana Julia Velez Rueda(AR)</b></td>
             </tr>
             <tr>
                 <td rowspan="3">14:00 PM</td>
