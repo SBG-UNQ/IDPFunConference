@@ -138,51 +138,6 @@ function renderProgramSection() {
     const tableTwo = $('#table-daytwo');
     const tableThree = $('#table-daythree');
     const tableFour = $('#table-dayfour');
-
-    dayOneButton.addEventListener('click', () => {
-        $(dayOneButton).addClass('orange-element');
-        $(dayTwoButton).removeClass('orange-element');
-        $(dayThreeButton).removeClass('orange-element');
-        $(dayFourButton).removeClass('orange-element');
-        tableOne.removeClass("disable");
-        tableTwo.addClass("disable");
-        tableThree.addClass("disable");
-        tableFour.addClass("disable");
-    });
-
-
-    dayTwoButton.on('click', () => {
-        $(dayTwoButton).addClass('orange-element');
-        $(dayOneButton).removeClass('orange-element');
-        $(dayThreeButton).removeClass('orange-element');
-        $(dayFourButton).removeClass('orange-element');
-        tableOne.addClass("disable");
-        tableTwo.removeClass("disable");
-        tableThree.addClass("disable");
-        tableFour.addClass("disable");
-    });    
-
-    dayThreeButton.on('click', () => {
-        $(dayThreeButton).addClass('orange-element');
-        $(dayOneButton).removeClass('orange-element');
-        $(dayTwoButton).removeClass('orange-element');
-        $(dayFourButton).removeClass('orange-element');
-        tableOne.addClass("disable");
-        tableThree.removeClass("disable");
-        tableFour.addClass("disable");
-        tableTwo.addClass("disable");
-    });
-
-    dayFourButton.on('click', () => {
-        $(dayFourButton).addClass('orange-element');
-        $(dayOneButton).removeClass('orange-element');
-        $(dayTwoButton).removeClass('orange-element');
-        $(dayThreeButton).removeClass('orange-element');
-        tableFour.removeClass("disable");
-        tableThree.addClass("disable");
-        tableTwo.addClass("disable");
-        tableOne.addClass("disable");
-    });
 }
 
 renderProgramSection()
