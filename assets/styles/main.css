@@ -137,6 +137,14 @@ nav li {
 
 }
 
+.about-list {
+    padding-left: 35px;
+}
+
+.about-list li {
+    list-style: circle;
+}
+
 .general-section button {
     background-color: #ffc107;
     width: 10rem;
@@ -195,7 +203,7 @@ nav li {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #4a89aa;
     color: aliceblue;
     padding: 2.1rem 0.9rem 1.2rem 0.9rem;
@@ -277,7 +285,7 @@ footer img {
 }
 
 .table_program{
-width: 70%;
+    width: 70%;
 }
 
 .table_program td{
@@ -324,9 +332,10 @@ width: 70%;
 .prog-tracks td {
     font-size: 1.1em;
     font-weight: bold;
-    line-height: 1.4em;
+    line-height: 1.2em;
     color:#906aac;
     border: none;
+    padding-top: 45px;
 }
 
 .prog-tracks strong{
@@ -346,6 +355,7 @@ width: 70%;
 
 .program-section section {
     margin-top: 1%;
+    margin-bottom: 3%;
 }
 
 .program-section p {
