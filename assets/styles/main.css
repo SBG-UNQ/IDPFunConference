@@ -138,11 +138,42 @@ nav li {
 }
 
 .about-list {
+    margin: 2% 0;
     padding-left: 35px;
 }
 
 .about-list li {
     list-style: circle;
+}
+
+.about-div{
+    padding: 2% 0;
+}
+
+.about-div h2, h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-div h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mapouter {
+    margin-top: 15px;
+}
+
+.sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5% 21%;
+}
+
+.sponsors img{
+    width: 100px;
+    margin-left: 20px;
 }
 
 .general-section button {
@@ -206,9 +237,10 @@ footer {
     flex-direction: row;
     background-color: #4a89aa;
     color: aliceblue;
-    padding: 2.1rem 0.9rem 1.2rem 0.9rem;
+    padding: 2.1rem 10.9rem 1.2rem 10.9rem;
     text-align: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .footer-main-div {
@@ -216,7 +248,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    padding: 0 15rem;
+    padding: 0 10rem;
 }
 
 
@@ -238,6 +270,10 @@ footer img {
 
 .footer > * {
     margin: 9px 0;
+    justify-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -385,4 +421,11 @@ footer img {
 .dark-purple{
     color: #6D4486;
     text-decoration: underline;
+}
+
+/* committes */
+
+
+.committes {
+    padding-top: 2%;
 }
