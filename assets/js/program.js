@@ -64,7 +64,7 @@ function renderProgramSection() {
             <tr>
                 <td>13:00  - 14:30</td>
                 <td>Workshop</td>
-                <td>CoDNaSQ and CoDNaS-RNA<br><br><b class="speakers-names">Nahuel Escobedo & Martin Gonzalez Buitron</b></td>
+                <td>CoDNaS*: An introduction to study conformational<br><br><b class="speakers-names">Nahuel Escobedo & Martin Gonzalez Buitron</b></td>
             </tr>
             <tr>
                 <td>17:00  - 18:00</td>
@@ -135,26 +135,36 @@ function renderProgramSection() {
             <td></td>
             <td><b>LUNCH</b></td>
             </tr>
-
             <tr>
-                <td>12:00 - 12:30</td>
+                <td>14:30 - 15:00</td>
+                <td>Keynote Talks</td>
+                <td>Sebastian Fernandez Alberti (University of Quilmes)</td>
+            </tr>           
+            
+            <tr>
+                <td>14:30 - 15:00</td>
                 <td>Keynote Talks</td>
                 <td>Damien Devos</td>
             </tr>
             <tr>
-                <td>12:00 - 12:30</td>
+                <td>15:30 - 16:00</td>
                 <td>Keynote Talks</td>
                 <td>Ember Martínez</td>
             </tr>
             <tr>
-                <td>12:30 - 14:00</td>
+                <td>15:00 - 15:30</td>
                 <td></td>
                 <td><b>COFFEE BREAK</b></td>
             </tr>
             <tr>
-                <td>12:00 - 12:30</td>
+                <td>16:30 - 16:50</td>
                 <td>Invited Speakers</td>
-                <td>ESR</td>
+                <td>Sofia Erdozain (University of La Plata)</td>
+            </tr>
+            <tr>
+                <td>16:50 - 17:10</td>
+                <td>Invited Speakers</td>
+                <td>Nahuel Escobedo (University of Quilmes)</td>
             </tr>
         </tbody>    
     </table>
@@ -214,7 +224,7 @@ function renderProgramSection() {
                 <td>ESR</td>
             </tr>
             <tr>
-                <td>11:30 - 12:00</td>
+                <td>11:30 - 14:00</td>
                 <td></td>
                 <td><b>LUNCH</b></td>
             </tr>
@@ -249,8 +259,8 @@ function renderProgramSection() {
 
             <tr>
                 <td>17:00 - 17:30 </td>
-                <td>Keynote Talks</td>
-                <td>Sebastian Fernandez Alberti</td>
+                <td>Invited Speakers</td>
+                <td>ESR</td>
             </tr>
             <tr>
                 <td>17:30 - 18:00</td>
