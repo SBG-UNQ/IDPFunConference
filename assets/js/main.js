@@ -12,7 +12,7 @@ const speakers = [
     { "name": "Dr. Diego Ferreiro", 'img': 'diego.png', "filiation": "UBA - Argentina" },
     { "name": "Dr. Ember Martínez", 'img': 'ember.png', "filiation": "UC - Colombia" },
     { "name": "Dr. Francisco Melo", 'img': 'francisco.png', "filiation": "PUCD - Chile" },
-    { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCD - Chile" },
+    { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCD - Peru" },
     { "name": "Dr. Lucia Chemes", 'img': 'lucia_chemes.png', "filiation": "UNSAM - Argentina" },
     { "name": "Dr. Miguel Andrade", 'img': 'miguel.png', "filiation": "JGU - Germany" },
     { "name": "Dr. Sebastian Fernandez Alberti", 'img': 'seba.png', "filiation": "UNQ - Argentina" },
