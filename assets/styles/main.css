@@ -311,6 +311,7 @@ footer img {
 }
 
 .keydates_table td{
+    padding: 1% 1%;
     text-align: left;
 }
 
@@ -354,7 +355,7 @@ footer img {
 .program-section td {
     vertical-align: middle;
     overflow: hidden;
-    padding: 10px 5px;
+    padding: 1% 10px;
     word-break: normal;
     font-size: 1em;
     line-height: 1.1em;
@@ -371,7 +372,7 @@ footer img {
     line-height: 1.2em;
     color:#906aac;
     border: none;
-    padding-top: 45px;
+    padding-top: 27px;
 }
 
 .prog-tracks strong{
@@ -423,9 +424,17 @@ footer img {
     text-decoration: underline;
 }
 
+.one-cell {
+    width: 100%;
+    text-align: initial;
+    padding-left: 8%;
+    padding-bottom: 7%;
+}
+
 /* committes */
 
 
 .committes {
     padding-top: 2%;
+    margin-top: 5%;
 }
