@@ -4,20 +4,20 @@ const imageCarrouselDiv = document.getElementById('image-carousel');
 
 const speakers = [
     { "name": "Dr. Alan Talevi", 'img': 'alan.png', "filiation": "UNLP - Argentina" },
-    { "name": "Dr. Andrey Kajava", 'img': 'andrej.png', "filiation": "CRBCM - France" },
+    { "name": "Dr. Andrey Kajava", 'img': 'andrej.png', "filiation": "CRBM-CNRS - France" },
     { "name": "Dr. Cristina Marino Buslje", 'img': 'cristina-marino-buslje.png', "filiation": "FIL - Argentina" },
-    { "name": "Dr. Damian Devos", 'img': 'damian_devos.png', "filiation": "CDB - Spain" },
+    { "name": "Dr. Damian Devos", 'img': 'damian_devos.png', "filiation": "CABD-CSIC - Spain" },
     { "name": "Dr. Daniel Guerra Giraldez", 'img': 'DanielGuerra.png', "filiation": "UPCH - Peru" },
-    { "name": "Dr. Denis Shield", 'img': 'denis.png', "filiation": "IUD - Irland" },
+    { "name": "Dr. Denis Shield", 'img': 'denis.png', "filiation": "UCD - Irland" },
     { "name": "Dr. Diego Ferreiro", 'img': 'diego.png', "filiation": "UBA - Argentina" },
-    { "name": "Dr. Ember Martínez", 'img': 'ember.png', "filiation": "UC - Colombia" },
-    { "name": "Dr. Francisco Melo", 'img': 'francisco.png', "filiation": "PUCD - Chile" },
-    { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCD - Peru" },
+    { "name": "Dr. Ember Martínez", 'img': 'ember.png', "filiation": "UniCauca - Colombia" },
+    { "name": "Dr. Francisco Melo", 'img': 'francisco.png', "filiation": "PUC - Chile" },
+    { "name": "Dr. Layla Hirsh", 'img': 'layla.png', "filiation": "PUCP - Peru" },
     { "name": "Dr. Lucia Chemes", 'img': 'lucia_chemes.png', "filiation": "UNSAM - Argentina" },
     { "name": "Dr. Miguel Andrade", 'img': 'miguel.png', "filiation": "JGU - Germany" },
     { "name": "Dr. Sebastian Fernandez Alberti", 'img': 'seba.png', "filiation": "UNQ - Argentina" },
     { "name": "Dr. Silvio Tosatto", 'img': 'silvio.png', "filiation": "UNIPD - Italy" },
-    { "name": "Dr. Zsuzsanna Dosztányi", 'img': 'Zsuzsanna.png', "filiation": "HELU - Hungary" }
+    { "name": "Dr. Zsuzsanna Dosztányi", 'img': 'Zsuzsanna.png', "filiation": "ELTE - Hungary" }
 ];
 
 function appendSpeaker(element, speakersList) {
