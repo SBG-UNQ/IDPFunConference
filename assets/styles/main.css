@@ -98,6 +98,9 @@ nav li {
 
 /*general section*/
 
+.italics-text {
+    font-style: italic;
+}
 .general-section {
     display: flex;
     flex-direction: row;
@@ -164,6 +167,9 @@ nav li {
     margin-top: 15px;
 }
 
+.refract-logo {
+    height: 57px;
+}
 .sponsors{
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +178,7 @@ nav li {
 }
 
 .sponsors img{
-    width: 100px;
+    width: 143px;
     margin-left: 20px;
 }
 
