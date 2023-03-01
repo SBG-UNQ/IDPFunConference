@@ -157,14 +157,19 @@ function renderProgramSection() {
                 <td><b>COFFEE BREAK</b></td>
             </tr>
             <tr>
-                <td>16:30 - 16:50</td>
-                <td>Invited Speakers</td>
+                <td>16:30 - 16:45</td>
+                <td>ESR talk</td>
                 <td>Sofia Erdozain (University of La Plata)</td>
             </tr>
             <tr>
-                <td>16:50 - 17:10</td>
-                <td>Invited Speakers</td>
+                <td>16:45 - 17:00</td>
+                <td>ESR talk</td>
                 <td>Nahuel Escobedo (University of Quilmes)</td>
+            </tr>
+            <tr>
+                <td>17:00 - 17:15</td>
+                <td>ESR talk</td>
+                <td>Patricio Chinestrad (University of Quilmes)</td>
             </tr>
         </tbody>    
     </table>
@@ -199,7 +204,7 @@ function renderProgramSection() {
             <tr>
                 <td>10:30 - 10:00</td>
                 <td>Keynote Talks</td>
-                <td>Layla Hirsh ((Pontifical Catholic University of Peru)</td>
+                <td><b class="speakers-names">Career Development talks for students of Bioinformatic</b> <br><br>Layla Hirsh ((Pontifical Catholic University of Peru)</td>
             </tr>
             
             <tr>
@@ -209,9 +214,9 @@ function renderProgramSection() {
             </tr>
 
             <tr>
-                <td>11:30 - 11:30 </td>
+                <td>11:30 - 12:00 </td>
                 <td>Keynote Talks</td>
-                <td>Denis Shields (University of Dublin)</td>
+                <td>Denis Shields (University College Dublin)</td>
             </tr>
             <tr>
                 <td>12:00 - 12:30</td>
@@ -253,26 +258,31 @@ function renderProgramSection() {
             </tr>
 
             <tr>
-                <td>16:30 - 17:00</td>
-                <td>Invited Speakers</td>
+                <td>16:30 - 16:45</td>
+                <td>ESR talk</td>
                 <td>Giorgia Francesca Camagni</td>
             </tr>
 
             <tr>
-                <td>17:00 - 17:30 </td>
-                <td>Invited Speakers</td>
-                <td>ESR</td>
+                <td>16:45 - 17:00 </td>
+                <td>ESR talk</td>
+                <td>Nicolas Garrone</td>
             </tr>
             <tr>
-                <td>17:30 - 18:00</td>
-                <td>Invited Speakers</td>
+                <td>17:00 - 17:15</td>
+                <td>ESR talk</td>
                 <td>Franco Pradelli</td>
             </tr>
             <tr>
-                <td>18:00 - 20:00</td>
+                <td>17:15 - 17:30</td>
+                <td>ESR talk</td>
+                <td><b>Gudrun Adrian</b></td>
+            </tr>
+            <tr>
+                <td>17:30 - 18:30</td>
                 <td></td>
                 <td><b>WRAP-UP</b></td>
-            </tr>
+            </tr
 
         </tbody>
     </table>
