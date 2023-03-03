@@ -15,13 +15,25 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>6th March </strong>
+            <td colspan="3"><strong>6th March </strong> <br><br>Location: Room 60
             </td>
+            
             </tr>
             <tr class="prog-tracks">
             <td colspan="3"> 
             </td>
             </tr>
+            
+            <td colspan="3"><b>Participants</b>: closed only to consortium members
+            </td>
+            <tr></tr>
+            <td colspan="1">09:00 - 09:30
+            </td>
+            <td colspan="2"> Registration & Welcome desk
+            </td>
+            <tr></tr>
+            
+            
             <tr>
                 <td>9:30 - 12:30 </td>
                 <td>Workshop</td>
@@ -44,13 +56,16 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>7th March </strong>
+            <td colspan="3"><strong>7th March </strong> <br><br>Location: Room 60
             </td>
             </tr>
             <tr class="prog-tracks">
             <td colspan="4"> 
             </td>
             </tr>
+
+            <td colspan="3"><b>Participants</b>: open doors
+            </td>
             <tr>
                 <td>9:30 - 11:00 </td>
                 <td>Workshop</td>
