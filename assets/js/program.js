@@ -90,14 +90,18 @@ function renderProgramSection() {
             <td colspan="3"><strong>8th March </strong> <br><br>Salon Auditorio UNQ
             </td>
             </tr>
+
             <tr class="prog-tracks">
             <td colspan="3"> 
             </td>
-            </tr>
+            </tr>        
+            <td colspan="3"> <b class="speakers-names">Welcome Note</b> <br><br>Sebastian Fernandez Alberti
+            </td>
+            <tr></tr>
             <tr>
                 <td>9:30 - 10:00 </td>
                 <td>Keynote Talks</td>
-                <td class="talks-titles">Silvio Tosatto (University of Padua)</td>
+                <td class="talks-titles"><b class="speakers-names">Non-globular proteins in the era of AlphaFoldDB</b><br><br> Silvio Tosatto (University of Padua)</td>
             </tr>
             <tr>
                 <td>10:00 - 10:30 </td>
@@ -107,13 +111,19 @@ function renderProgramSection() {
             <tr>
                 <td>10:30 - 11:00 </td>
                 <td>Keynote Talks</td>
-                <td>Diego Ferreiro (University of Buenos Aires)</td>
+                <td><b class="speakers-names">From evolution to folding of repeat-proteins</b> <br><br>Diego Ferreiro (University of Buenos Aires)</td>
             </tr>
-            <tr>
-                <td>11:00 - 11:30</td>
-                <td></td>
-                <td><b>COFFEE BREAK</b></td>
-            </tr>
+
+            <td colspan="1">11:00 - 11:30
+            </td>
+            <td colspan="2"> COFFEE BREAK
+            </td>
+            <tr></tr>
+            
+            <tr></tr>
+            <td colspan="3">Chair: Maria Silvina Fornasari
+            </td>
+
             <tr>
                 <td>11:30 - 12:00</td>
                 <td>Keynote Talks</td>
@@ -122,7 +132,7 @@ function renderProgramSection() {
             <tr>
                 <td>12:00 - 12:30</td>
                 <td>Keynote Talks</td>
-                <td>Alan Talevi (National University of La Plata)</td>
+                <td><b class="speakers-names">LIDeB tools: open-source web apps to assist virtual screening campaigns</b> <br><br>Alan Talevi (National University of La Plata)</td>
             </tr>
             <tr>
                 <td>12:30 - 13:00</td>
@@ -130,32 +140,39 @@ function renderProgramSection() {
                 <td><b class="speakers-names">Census of exposed aggregation-prone regions in proteomes</b><br><br>Andrey Kajava (Centre National de la Recherche Scientifique - CNRS)</td>
             </tr>
 
-            <tr>
-            <td>13:00 - 14:30</td>
-            <td></td>
-            <td><b>LUNCH</b></td>
-            </tr>
+            <td colspan="1">13:00 - 14:30
+            </td>
+            <td colspan="2"> LUNCH
+            </td>
+            <tr></tr>
+            <td colspan="3">Chair: Lucia Chemes
+            </td>
             <tr>
                 <td>14:30 - 15:00</td>
                 <td>Keynote Talks</td>
-                <td>Sebastian Fernandez Alberti (University of Quilmes)</td>
+                <td><b class="speakers-names">Conformational diversity: key residues and exploration</b><br><br>Sebastian Fernandez Alberti (University of Quilmes)</td>
             </tr>           
             
             <tr>
                 <td>15:00 - 15:30</td>
                 <td>Keynote Talks</td>
-                <td>Damien Devos (University of Sevilla)</td>
+                <td><b class="speakers-names">Sometimes, size matters. Huge and repeat proteins in the tree of life</b><br><br>Damien Devos(Andalusian Center for Developmental Biology)</td>
             </tr>
             <tr>
                 <td>15:30 - 16:00</td>
                 <td>Keynote Talks</td>
-                <td>Ember Martínez (University of Cauca)</td>
+                <td><b class="speakers-names">Clustering of tandem repeats in malaria parasite proteins</b><br><br>Ember Martínez (University of Cauca)</td>
             </tr>
-            <tr>
-                <td>16:00 - 16:30</td>
-                <td></td>
-                <td><b>COFFEE BREAK</b></td>
-            </tr>
+
+            <td colspan="1">16:00 - 16:30
+            </td>
+            <td colspan="2"> COFFEE BREAK
+            </td>
+            <tr></tr>
+
+            <td colspan="3">Chair: Cristina Marino Buslje
+            </td>
+
             <tr>
                 <td>16:30 - 16:45</td>
                 <td>ESR talk</td>
@@ -205,13 +222,15 @@ function renderProgramSection() {
                 <td>10:30 - 10:00</td>
                 <td>Keynote Talks</td>
                 <td><b class="speakers-names">Career Development talks for students of Bioinformatic</b> <br><br>Layla Hirsh ((Pontifical Catholic University of Peru)</td>
-            </tr>
+            </tr>            
             
-            <tr>
-                <td>10:00 - 11:30</td>
-                <td></td>
-                <td><b>COFFEE BREAK</b></td>
-            </tr>
+            <td colspan="1">10:00 - 11:30
+            </td>
+            <td colspan="2"> COFFEE BREAK
+            </td>
+            <tr></tr>
+            <td colspan="3">Chair: Silvio Tosatto
+            </td>
 
             <tr>
                 <td>11:30 - 12:00 </td>
@@ -229,61 +248,67 @@ function renderProgramSection() {
                 <td>Keynote Talks</td>
                 <td>Daniel Guerra Giraldez (Cayetano Heredia University)</td>
             </tr>
-            <tr>
-                <td>13:00 - 14:30</td>
-                <td></td>
-                <td><b>LUNCH</b></td>
-            </tr>
 
+            <td colspan="1">13:00 - 14:30
+            </td>
+            <td colspan="2"> LUNCH
+            </td>
+            <tr></tr>
+            <td colspan="3">Chair: Damian Devos
+            </td>
             <tr>
                 <td>14:30 - 15:00</td>
                 <td>Keynote Talks</td>
-                <td>Zsuzsanna Dosztányi (ELTE University)</td>
+                <td>Zsuzsanna Dosztányi (Eotvos Lorand University)</td>
             </tr>
 
             <tr>
                 <td>15:00 - 15:30 </td>
                 <td>Keynote Talks</td>
-                <td>Lucia Chemes (National University of San Martin)</td>
+                <td><b class="speakers-names">Evolutionary constraints on intrinsically disordered regions performing tethering functions</b> <br><br> Lucia Chemes (National University of San Martin)</td>
             </tr>
             <tr>
                 <td>15:30 - 16:00</td>
                 <td>Keynote Talks</td>
                 <td>Francisco Melo (Pontifical Catholic University of Chile)</td>
             </tr>
-            <tr>
-                <td>16:00 - 16:30</td>
-                <td class="breaks"></td>
-                <td><b>COFFEE BREAK</b></td>
-            </tr>
+
+            <td colspan="1">16:00 - 16:30
+            </td>
+            <td colspan="2"> COFFEE BREAK
+            </td>
+            <tr></tr>
+            <td colspan="3">Chair: Andrej Kajava
+            </td>
+            <tr></tr>
 
             <tr>
                 <td>16:30 - 16:45</td>
                 <td>ESR talk</td>
-                <td>Giorgia Francesca Camagni</td>
+                <td><b class="speakers-names">A Molecular Dynamics Simulation Study of Hypoxia Inducible Factor a - Prolyl Hydroxylase Interaction</b> <br><br>Giorgia Francesca Camagni(University of Padua)</td>
             </tr>
 
             <tr>
                 <td>16:45 - 17:00 </td>
                 <td>ESR talk</td>
-                <td>Nicolas Garrone</td>
+                <td>Nicolas Garrone (National University of San Martin)</td>
             </tr>
             <tr>
                 <td>17:00 - 17:15</td>
                 <td>ESR talk</td>
-                <td>Franco Pradelli</td>
+                <td><b class="speakers-names">Simulating cancer development: applications to the von Hippel-Lindau syndrome</b><br><br>Franco Pradelli (University of Padua)</td>
             </tr>
             <tr>
                 <td>17:15 - 17:30</td>
                 <td>ESR talk</td>
-                <td><b>Gudrun Adrian</b></td>
+                <td><b class="speakers-names">Everything you always wanted to know about Cell Penetration Peptides</b><br><br>Gudrun Aldrian (Centre for Biochemical and Macromolecular Research)</td>
             </tr>
-            <tr>
-                <td>17:30 - 18:30</td>
-                <td></td>
-                <td><b>WRAP-UP</b></td>
-            </tr
-
+            
+            <td colspan="1">17:30 - 18:30
+            </td>
+            <td colspan="2"> WRAP-UP
+            </td>
+            <tr></tr>
         </tbody>
     </table>
 

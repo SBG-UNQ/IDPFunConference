@@ -147,6 +147,7 @@ nav li {
 
 .about-list li {
     list-style: circle;
+    margin: 5px 0;
 }
 
 .about-div{
