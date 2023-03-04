@@ -100,13 +100,17 @@
         font-size: 1.1 em;
     }
 
+    nav ul {
+        padding: 3% 8% !important;
+    }
+
     nav img {
         width: 8em;
         height: 2em;
     }
 
     .general-section {
-        margin: 9em 2% 2% 1%;
+        margin: 11em 2% 2% 1%;
     }
 
     .general-section figure img {
@@ -128,13 +132,30 @@
         margin-top: 17px;
     }
 
-    .gmap_canvas {
+    .committes {
+        padding-top: 11%;
+        margin-top: 5%;
+    }
+
+
+    article a {
+        color: #f4d4aa;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
         height: 37em !important;
         width: 18em !important;
     }
 
+    .gmap_canvas {
+        height: 32em !important;
+        width: 20em !important;
+    }
+
     footer {
-        padding: 1.1rem 0.9rem 2.2rem 2.9rem;
+        padding: 2.1rem 1.9rem 1.2rem 1.9rem;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -149,15 +170,15 @@
     }
 
     .footer-main-div {
-        padding: 0 6rem;
+        padding: 0 0rem;
     }
 
     .footer-committes{
-        width: 120%;
+        width: 102%;
     }
 
     .site-credits {
-        font-size: 14px;
+        font-size: 10px;
     }
 } 
 
