@@ -1,4 +1,89 @@
-@media screen  and (max-width: 500px) {
+@media screen  and (max-width: 230px) {
+    body {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    h2, h3 {
+        font-size: 1.3em;
+    }
+
+    h4, h5 {
+        font-size: 1.1 em;
+    }
+
+    nav img {
+        width: 8em;
+        height: 2em;
+    }
+
+    .general-section {
+        margin: 9em 2% 2% 1%;
+    }
+
+    .general-section figure img {
+        display: none;
+    }
+
+    .program-section {
+        margin-top: 43%;
+        margin-bottom: 8%;
+    }
+
+    .sponsor {
+        padding: 5% 4%;
+    }
+
+    .sponsors img {
+        width: 7em;
+        margin-left: 1em;
+        margin-top: 17px;
+    }
+
+    .mapouter {
+        height: 40em !important;
+        width: 35em  !important;
+    }
+
+    .gmap_canvas {
+        height: 37em !important;
+        width: 18em !important;
+    }
+
+    article a {
+        display: none;
+    }
+
+    footer {
+        padding: 1.1rem 0.9rem 2.2rem 2.9rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .footer > * {
+        margin: 0;
+    }
+
+    .footer-main-div {
+        padding: 0 6rem;
+    }
+
+    .footer-committes{
+        width: 105%;
+    }
+
+    .site-credits {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 230px) and (max-width: 500px) {
     body {
         font-size: 1em;
     }
@@ -44,8 +129,8 @@
     }
 
     .gmap_canvas {
-        height: 37em;
-        width: 18em;
+        height: 37em !important;
+        width: 18em !important;
     }
 
     footer {
@@ -55,6 +140,9 @@
         text-align: center;
     }
 
+    footer img {
+        display: none;
+    }
 
     .footer > * {
         margin: 0;
@@ -101,10 +189,17 @@
         padding: 5% 4%;
     }
 
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 23em;
+        width: 19em;
+    }
+
     .gmap_canvas {
-        height: 34em;
-        width: 23em;
-      }
+        height: 19em !important;
+        width: 26em !important;
+    }
       
 
     footer {
@@ -130,7 +225,7 @@
     }
 
     .footer-committes{
-        width: 100%;
+        width: 109%;
     }
 }
 
