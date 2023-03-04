@@ -12,18 +12,18 @@
 
 body {
     position: absolute;
+    margin: 0;
+    overflow-x: hidden;
     color: #666666;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 1.5em;
-    margin: 0;
-    overflow-x: hidden;
     background-color: antiquewhite;
     z-index: 5;
 }
 
 section{
-    padding: 2rem 15rem;
+    padding: 1% 10%;
 }
 
 h1 {
@@ -81,14 +81,15 @@ nav {
 }
 
 nav img {
-    width: 350px;
-    height: 64px;
+    width: 14em;
+    height: 3em;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 nav li {
@@ -105,8 +106,7 @@ nav li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 8rem;
-    flex: 2 1;
+    margin: 13% 1% 2% 1%;
 }
 
 .general-section div {
@@ -241,10 +241,11 @@ nav li {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #4a89aa;
-    color: aliceblue;
     padding: 2.1rem 10.9rem 1.2rem 10.9rem;
+    width: 100%;
+    color: aliceblue;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -260,8 +261,8 @@ footer {
 
 
 footer img {
-    width: 320px;
-    height: 55px;
+    width: 13em;
+    height: 3em;
 }
 
 .footer-contact-div{
@@ -293,11 +294,15 @@ footer img {
     font-size: 18px;
 }
 
+.footer-committes{
+    width: 132%;
+}
 
 /*Program*/
 
 .program-section{
     margin-top: 9%;
+    margin-bottom: 8%;
     text-align: center;
     display: flex;
     align-items: center;

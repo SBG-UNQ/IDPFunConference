@@ -1,0 +1,198 @@
+@media screen  and (max-width: 500px) {
+    body {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    h2, h3 {
+        font-size: 1.3em;
+    }
+
+    h4, h5 {
+        font-size: 1.1 em;
+    }
+
+    nav img {
+        width: 8em;
+        height: 2em;
+    }
+
+    .general-section {
+        margin: 9em 2% 2% 1%;
+    }
+
+    .general-section figure img {
+        display: none;
+    }
+
+    .program-section {
+        margin-top: 43%;
+        margin-bottom: 8%;
+    }
+
+    .sponsor {
+        padding: 5% 4%;
+    }
+
+    .sponsors img {
+        width: 7em;
+        margin-left: 1em;
+        margin-top: 17px;
+    }
+
+    .gmap_canvas {
+        height: 37em;
+        width: 18em;
+    }
+
+    footer {
+        padding: 1.1rem 0.9rem 2.2rem 2.9rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .footer > * {
+        margin: 0;
+    }
+
+    .footer-main-div {
+        padding: 0 6rem;
+    }
+
+    .footer-committes{
+        width: 120%;
+    }
+
+    .site-credits {
+        font-size: 14px;
+    }
+} 
+
+@media  screen and (min-width: 501px) and (max-width: 850px){
+
+    nav img {
+        width: 8em;
+        height: 2em;
+    }
+
+    .general-section {
+        margin: 24% 3% 2% 1%;
+    }
+
+    .general-section {
+        margin: 9em 2% 2% 1%;
+    }
+
+    .general-section figure img {
+        display: none;
+    }
+
+    .program-section {
+        margin-top: 30%;
+        margin-bottom: 8%;
+    }
+
+    .sponsor {
+        padding: 5% 4%;
+    }
+
+    .gmap_canvas {
+        height: 34em;
+        width: 23em;
+      }
+      
+
+    footer {
+        padding: 1.1rem 0.9rem 2.2rem 2.9rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer img {
+        display: none;
+    }
+
+    .footer > * {
+        margin: 0;
+    }
+
+    .footer-main-div {
+        padding: 0 6rem;
+    }
+
+    .site-credits {
+        font-size: 14px;
+    }
+
+    .footer-committes{
+        width: 100%;
+    }
+}
+
+@media  screen and (min-width: 800px) and (max-width: 1027px){
+
+    .general-section {
+        margin: 24% 3% 2% 1%;
+    }
+
+
+    .general-section figure img {
+        display: none;
+    }
+
+    .program-section {
+        margin-top: 24%;
+        margin-bottom: 8%;
+    }
+
+    footer {
+        padding: 2.1rem 0.9rem 1.2rem 0rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-committes {
+        width: 104%;
+    }
+
+    footer img {
+        display: none;
+    }
+}
+
+
+
+@media  screen and (min-width: 1027px) and (max-width: 1200px){
+
+    .general-section {
+        margin: 15% 3% 2% 1%;
+    }
+
+    .general-section figure img {
+        width: 26rem;
+        margin-left: 6rem;
+    }
+
+
+    .program-section {
+        margin-top: 18%;
+        margin-bottom: 8%;
+    }
+
+    footer {
+        padding: 2.1rem 0.9rem 1.2rem 2.9rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-committes{
+        width: 108%;
+    }
+}
