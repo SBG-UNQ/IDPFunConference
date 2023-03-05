@@ -145,13 +145,13 @@
     .mapouter {
         position: relative;
         text-align: right;
-        height: 37em !important;
-        width: 18em !important;
+        height: 32em !important;
+        width: 16em !important;
     }
 
     .gmap_canvas {
         height: 32em !important;
-        width: 20em !important;
+        width: 16em !important;
     }
 
     footer {
@@ -159,6 +159,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        width: 113%;
     }
 
     footer img {
@@ -173,8 +174,13 @@
         padding: 0 0rem;
     }
 
+    .footer-contact-div > * {
+        padding: 12px;
+        text-align: center;
+    }
+
     .footer-committes{
-        width: 102%;
+        width: 112%;
     }
 
     .site-credits {
@@ -239,6 +245,11 @@
 
     .footer-main-div {
         padding: 0 6rem;
+    }
+
+    .footer-contact-div > * {
+        padding: 12px;
+        text-align: center;
     }
 
     .site-credits {
