@@ -29,7 +29,7 @@ function renderProgramSection() {
             <tr></tr>
             <td colspan="1">09:00 - 09:30
             </td>
-            <td colspan="2"> Registration & Welcome desk
+            <td colspan="2"><b class="break-text">Registration & Welcome desk</b>
             </td>
             <tr></tr>
             
@@ -84,7 +84,7 @@ function renderProgramSection() {
             <tr>
                 <td>17:00  - 18:00</td>
                 <td> Talk</td>
-                <td> Opening and Welcome</td>
+                <td><b class="break-text">Opening and Welcome</b></td>
             </tr>
             <tr>
                 <td>18:00 - 20:00</td>
@@ -131,7 +131,7 @@ function renderProgramSection() {
 
             <td colspan="1">11:00 - 11:30
             </td>
-            <td colspan="2"> COFFEE BREAK
+            <td colspan="2"><b class="break-text">COFFEE BREAK</b>
             </td>
             <tr></tr>
             
@@ -157,7 +157,7 @@ function renderProgramSection() {
 
             <td colspan="1">13:00 - 14:30
             </td>
-            <td colspan="2"> LUNCH
+            <td colspan="2"><b class="break-text">LUNCH</b>
             </td>
             <tr></tr>
             <td colspan="3">Chair: Lucia Chemes
@@ -181,7 +181,7 @@ function renderProgramSection() {
 
             <td colspan="1">16:00 - 16:30
             </td>
-            <td colspan="2"> COFFEE BREAK
+            <td colspan="2"><b class="break-text">COFFEE BREAK</b>
             </td>
             <tr></tr>
 
@@ -241,7 +241,7 @@ function renderProgramSection() {
             
             <td colspan="1">10:00 - 11:30
             </td>
-            <td colspan="2"> COFFEE BREAK
+            <td colspan="2"><b class="break-text">COFFEE BREAK</b>
             </td>
             <tr></tr>
             <td colspan="3">Chair: Silvio Tosatto
@@ -266,7 +266,7 @@ function renderProgramSection() {
 
             <td colspan="1">13:00 - 14:30
             </td>
-            <td colspan="2"> LUNCH
+            <td colspan="2"><b class="break-text">LUNCH</b>
             </td>
             <tr></tr>
             <td colspan="3">Chair: Damian Devos
@@ -290,7 +290,7 @@ function renderProgramSection() {
 
             <td colspan="1">16:00 - 16:30
             </td>
-            <td colspan="2"> COFFEE BREAK
+            <td colspan="2"><b class="break-text">COFFEE BREAK</b>
             </td>
             <tr></tr>
             <td colspan="3">Chair: Andrej Kajava
@@ -321,7 +321,7 @@ function renderProgramSection() {
             
             <td colspan="1">17:30 - 18:30
             </td>
-            <td colspan="2"> WRAP-UP
+            <td colspan="2"><b class="break-text">WRAP-UP</b>
             </td>
             <tr></tr>
         </tbody>

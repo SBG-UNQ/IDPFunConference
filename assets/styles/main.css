@@ -417,6 +417,10 @@ footer img {
     color: #4a89aa;
 }
 
+.break-text {
+    color: #906aac;
+}
+
 .prgram-butons {
     display: flex;
     flex-flow: row;
