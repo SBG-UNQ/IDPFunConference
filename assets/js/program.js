@@ -89,7 +89,7 @@ function renderProgramSection() {
             <tr>
                 <td>18:00 - 20:00</td>
                 <td> Social Event</td>
-                <td> Reception</td>
+                <td><b class="break-text">Reception</b></td>
             </tr>
         </tbody>
     </table>
