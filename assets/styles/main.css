@@ -171,6 +171,13 @@ nav li {
 .refract-logo {
     height: 57px;
 }
+
+.embassy-logo {
+    width: 143px;
+    height: 82px;
+    margin-top: 27px;
+}
+
 .sponsors{
     display: flex;
     flex-wrap: wrap;
