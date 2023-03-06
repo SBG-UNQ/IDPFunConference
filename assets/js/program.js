@@ -111,10 +111,23 @@ function renderProgramSection() {
             <tr></tr>
 
             <tr>
-                <td>11:00  - 13:00</td>
+                <td>11:00 - 13:00</td>
                 <td>Workshop</td>
                 <td><b class="speakers-names">MobiDB: 10 years annotating Intrinsically Disordered Proteins</b><br><br>Alexander Monzon (University of Padua)</td>
             </tr>
+            
+            <td colspan="1">13:00 - 14:30
+            </td>
+            <td colspan="2"><b class="break-text">LUNCH</b> (On your own) 
+            </td>
+            <tr></tr>
+
+            <tr>
+            <td>14:30 - 16:30</td>
+            <td>Workshop</td>
+            <td><b class="speakers-names">CoDNaS*: An introduction to study conformational diversity in biological molecules</b><br><br>Nahuel Escobedo and
+            Martin Gonzalez Buitron (University of Quilmes)</td>
+        </tr>
         </tbody>
     </table>
     
