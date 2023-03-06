@@ -211,7 +211,7 @@ function renderProgramSection() {
             <tr>
                 <td>11:30 - 12:00</td>
                 <td>Keynote Talks</td>
-                <td>Layla Hirsh Martinez (Pontifical Catholic University of Peru)</td>
+                <td><b class="speakers-names">Units identification in repeat proteins<b> Layla Hirsh Martinez (Pontifical Catholic University of Peru)</td>
             </tr>
             <tr>
                 <td>12:00 - 12:30</td>
@@ -284,7 +284,7 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong class="day-text">9th March </strong> <br><br>Salon Auditorio UNQ
+            <td colspan="3"><strong class="day-text">9th March </strong> <br><br>Salon Auditorio UNQ - Language spanish
             </td>
             </tr>
             <tr class="prog-tracks">
