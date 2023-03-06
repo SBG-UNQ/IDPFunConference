@@ -15,7 +15,7 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>6th March </strong> <br><br>Location: Room 60
+            <td colspan="3"><strong class="day-text">6th March </strong> <br><br>Location: Room 60
             </td>
             
             </tr>
@@ -35,16 +35,48 @@ function renderProgramSection() {
             
             
             <tr>
-                <td>9:30 - 12:30 </td>
+                <td>9:30 - 10:30 </td>
                 <td>Workshop</td>
                 <td><b class="speakers-names">Workshop - Biocuration in DisProt: the database of intrinsically disordered proteins</b> <br><br> Victoria Nugnes (University of Padua)   </td>
             </tr>
+            
+            <td colspan="1">10:30 - 11:00
+            </td>
+            <td colspan="2"><b class="break-text">COFFEE BREAK</b>
+            </td>
+            <tr></tr>
+
             <tr>
-                <td>14:00 - 17:00</td>
+            <td>11:00 - 12:30 </td>
+            <td>Workshop</td>
+            <td><b class="speakers-names">Workshop - Biocuration in DisProt: the database of intrinsically disordered proteins</b> <br><br> Victoria Nugnes (University of Padua)   </td>
+            </tr>
+            
+            <td colspan="1">10:30 - 11:00
+            </td>
+            <td colspan="2"><b class="break-text">LUNCH</b> (12.30 - 14.00 - on your own) 
+            </td>
+            <tr></tr>
+
+            <tr>
+                <td>14:00 - 15:30</td>
                 <td>Workshop</td>
                 <td><b class="speakers-names">Workshop - RepeatsDB a Tandem Repeat Protein Database: General usage and Curation of entries</b><br><br>Paula Arrias  (University of Padua)
                 </td>
             </tr>
+
+            <td colspan="1">15:30 - 16:00
+            </td>
+            <td colspan="2"><b class="break-text">COFFEE BREAK</b>
+            </td>
+            <tr></tr>
+
+            <tr>
+            <td>16:00 - 17:00</td>
+            <td>Workshop</td>
+            <td><b class="speakers-names">Workshop - RepeatsDB a Tandem Repeat Protein Database: General usage and Curation of entries</b><br><br>Paula Arrias  (University of Padua)
+            </td>
+        </tr>
         </tbody>
     </table>
 
@@ -56,7 +88,7 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>7th March </strong> <br><br>Location: Room 60
+            <td colspan="3"><strong class="day-text">7th March </strong> <br><br>Location: Room 60
             </td>
             </tr>
             <tr class="prog-tracks">
@@ -71,28 +103,65 @@ function renderProgramSection() {
                 <td>Workshop</td>
                 <td><b class="speakers-names">Workshop InterPro Database</b><br><br> Sara Chuguransky (European Bioinformatic Institute)</td>
             </tr>
+
+            <td colspan="1">11:00 - 11:30
+            </td>
+            <td colspan="2"><b class="break-text">COFFEE BREAK</b> 
+            </td>
+            <tr></tr>
+
             <tr>
                 <td>11:00  - 13:00</td>
                 <td>Workshop</td>
                 <td><b class="speakers-names">MobiDB: 10 years annotating Intrinsically Disordered Proteins</b><br><br>Alexander Monzon (University of Padua)</td>
             </tr>
-            <tr>
-                <td>13:00  - 14:30</td>
-                <td>Workshop</td>
-                <td><b class="speakers-names">CoDNaS*: An introduction to study conformational</b><br><br>Nahuel Escobedo & Martin Gonzalez Buitron (University of Quilmes)</td>
-            </tr>
-            <tr>
-                <td>17:00  - 18:00</td>
-                <td> Talk</td>
-                <td><b class="break-text">Opening and Welcome</b></td>
-            </tr>
-            <tr>
-                <td>18:00 - 20:00</td>
-                <td> Social Event</td>
-                <td><b class="break-text">Reception</b></td>
-            </tr>
         </tbody>
     </table>
+    
+    </table>
+    <table id="table-dayfour" class="disable table_program">
+    <col style="width: 15vw">
+    <col style="width: 10vw">
+    <col style="width: 75vw">
+    <thead>
+    </thead>
+    <tbody>
+        <tr class="prog-tracks">
+        <td colspan="3">Opening and Welcome Session
+        </td>
+        </tr>
+        <tr>
+            <td class="one-cell">
+                <br><br><b>Location</b>: Salón auditorio
+                <br><br><b>Time</b>: 17:00 GMT-3
+                <br><br><b>Participants</b>: Open doors
+            </td>
+        </tr>
+    </tbody>
+    </table>
+
+    </table>
+    <table id="table-dayfour" class="disable table_program">
+    <col style="width: 15vw">
+    <col style="width: 10vw">
+    <col style="width: 75vw">
+    <thead>
+    </thead>
+    <tbody>
+        <tr class="prog-tracks">
+        <td colspan="3">Welcome Cocktail
+        </td>
+        </tr>
+        <tr>
+            <td class="one-cell">
+                <br><br><b>Location</b>: Rectorado
+                <br><br><b>Time</b>: 18:00 GMT-3
+                <br><br><b>Participants</b>: Upon invitation
+            </td>
+        </tr>
+    </tbody>
+    </table>
+
 
     <table id="table-daythree" class="disable table_program">
         <col style="width: 15vw">
@@ -102,7 +171,7 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>8th March </strong> <br><br>Salon Auditorio UNQ
+            <td colspan="3"><strong class="day-text">8th March </strong> <br><br>Salon Auditorio UNQ
             </td>
             </tr>
 
@@ -215,7 +284,7 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>9th March </strong> <br><br>Salon Auditorio UNQ
+            <td colspan="3"><strong class="day-text">9th March </strong> <br><br>Salon Auditorio UNQ
             </td>
             </tr>
             <tr class="prog-tracks">
@@ -336,7 +405,7 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>Friday 10 March</strong> <br><br>REFERACT Supervisory Board meeting
+            <td colspan="3"><strong class="day-text">Friday 10 March</strong> <br><br>REFERACT Supervisory Board meeting
             </td>
             </tr>
             <tr class="prog-tracks">

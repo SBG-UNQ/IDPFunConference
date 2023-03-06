@@ -336,7 +336,7 @@ footer img {
 .program-section table{
     border-collapse: collapse;
     border-spacing: 0;
-    margin: 0px auto;
+    margin: 47px auto 20px auto;
 }
 
 .table_program{
@@ -444,6 +444,10 @@ footer img {
 .dark-purple{
     color: #6D4486;
     text-decoration: underline;
+}
+
+.day-text {
+    font-size: larger;
 }
 
 .one-cell {
